@@ -1,7 +1,7 @@
 [
     {
         "type": "convention",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 17,
         "column": 24,
@@ -14,7 +14,7 @@
     },
     {
         "type": "convention",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 49,
         "column": 0,
@@ -27,7 +27,7 @@
     },
     {
         "type": "convention",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 67,
         "column": 0,
@@ -40,7 +40,7 @@
     },
     {
         "type": "convention",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 76,
         "column": 71,
@@ -53,7 +53,7 @@
     },
     {
         "type": "convention",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 1,
         "column": 0,
@@ -66,7 +66,7 @@
     },
     {
         "type": "error",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 2,
         "column": 0,
@@ -79,7 +79,7 @@
     },
     {
         "type": "error",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 3,
         "column": 0,
@@ -92,7 +92,7 @@
     },
     {
         "type": "error",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 4,
         "column": 0,
@@ -105,7 +105,7 @@
     },
     {
         "type": "convention",
-        "module": "main",
+        "module": "src.main",
         "obj": "CookieManager",
         "line": 23,
         "column": 0,
@@ -118,7 +118,7 @@
     },
     {
         "type": "refactor",
-        "module": "main",
+        "module": "src.main",
         "obj": "CookieManager",
         "line": 23,
         "column": 0,
@@ -131,7 +131,7 @@
     },
     {
         "type": "warning",
-        "module": "main",
+        "module": "src.main",
         "obj": "get_maze",
         "line": 35,
         "column": 19,
@@ -144,7 +144,7 @@
     },
     {
         "type": "warning",
-        "module": "main",
+        "module": "src.main",
         "obj": "reset_game",
         "line": 56,
         "column": 21,
@@ -157,7 +157,7 @@
     },
     {
         "type": "warning",
-        "module": "main",
+        "module": "src.main",
         "obj": "login",
         "line": 62,
         "column": 34,
@@ -170,7 +170,7 @@
     },
     {
         "type": "warning",
-        "module": "main",
+        "module": "src.main",
         "obj": "logout",
         "line": 85,
         "column": 17,
@@ -183,7 +183,7 @@
     },
     {
         "type": "error",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 94,
         "column": 4,
@@ -196,7 +196,7 @@
     },
     {
         "type": "warning",
-        "module": "main",
+        "module": "src.main",
         "obj": "",
         "line": 2,
         "column": 0,
@@ -209,7 +209,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 3,
         "column": 0,
@@ -222,7 +222,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 13,
         "column": 0,
@@ -235,7 +235,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 15,
         "column": 0,
@@ -248,7 +248,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 21,
         "column": 0,
@@ -261,7 +261,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 24,
         "column": 0,
@@ -274,7 +274,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 26,
         "column": 0,
@@ -287,7 +287,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 28,
         "column": 0,
@@ -300,7 +300,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 32,
         "column": 0,
@@ -313,7 +313,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 38,
         "column": 0,
@@ -326,7 +326,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 45,
         "column": 0,
@@ -339,7 +339,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 47,
         "column": 0,
@@ -352,7 +352,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 58,
         "column": 0,
@@ -365,7 +365,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 61,
         "column": 0,
@@ -378,7 +378,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 69,
         "column": 0,
@@ -391,7 +391,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 73,
         "column": 0,
@@ -404,7 +404,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 79,
         "column": 0,
@@ -417,7 +417,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 83,
         "column": 0,
@@ -430,7 +430,7 @@
     },
     {
         "type": "error",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 6,
         "column": 0,
@@ -443,7 +443,7 @@
     },
     {
         "type": "warning",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "_parse_map",
         "line": 10,
         "column": 0,
@@ -456,7 +456,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "hit_obstacle",
         "line": 56,
         "column": 0,
@@ -469,7 +469,7 @@
     },
     {
         "type": "refactor",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "hit_obstacle",
         "line": 63,
         "column": 4,
@@ -482,7 +482,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "game_over",
         "line": 70,
         "column": 0,
@@ -495,7 +495,7 @@
     },
     {
         "type": "refactor",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "game_over",
         "line": 71,
         "column": 7,
@@ -508,7 +508,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "arrive_at_destination",
         "line": 76,
         "column": 0,
@@ -521,7 +521,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 7,
         "column": 0,
@@ -534,7 +534,7 @@
     },
     {
         "type": "convention",
-        "module": "judge_code",
+        "module": "tests.judge_code",
         "obj": "",
         "line": 8,
         "column": 0,
@@ -547,20 +547,7 @@
     },
     {
         "type": "convention",
-        "module": "test_game_over",
-        "obj": "",
-        "line": 12,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "/usr/src/tests/test_game_over.py",
-        "symbol": "missing-final-newline",
-        "message": "Final newline missing",
-        "message-id": "C0304"
-    },
-    {
-        "type": "convention",
-        "module": "test_game_over",
+        "module": "tests.test_game_over",
         "obj": "",
         "line": 1,
         "column": 0,
@@ -573,7 +560,7 @@
     },
     {
         "type": "convention",
-        "module": "test_game_over",
+        "module": "tests.test_game_over",
         "obj": "test_game_over_0",
         "line": 3,
         "column": 0,
@@ -586,20 +573,7 @@
     },
     {
         "type": "convention",
-        "module": "test_game_over",
-        "obj": "test_game_over_0",
-        "line": 4,
-        "column": 11,
-        "endLine": 4,
-        "endColumn": 31,
-        "path": "/usr/src/tests/test_game_over.py",
-        "symbol": "singleton-comparison",
-        "message": "Comparison 'game_over(0) == True' should be 'game_over(0) is True' if checking for the singleton value True, or 'game_over(0)' if testing for truthiness",
-        "message-id": "C0121"
-    },
-    {
-        "type": "convention",
-        "module": "test_game_over",
+        "module": "tests.test_game_over",
         "obj": "test_game_over_666",
         "line": 6,
         "column": 0,
@@ -612,20 +586,7 @@
     },
     {
         "type": "convention",
-        "module": "test_game_over",
-        "obj": "test_game_over_666",
-        "line": 7,
-        "column": 11,
-        "endLine": 7,
-        "endColumn": 33,
-        "path": "/usr/src/tests/test_game_over.py",
-        "symbol": "singleton-comparison",
-        "message": "Comparison 'game_over(666) == True' should be 'game_over(666) is True' if checking for the singleton value True, or 'game_over(666)' if testing for truthiness",
-        "message-id": "C0121"
-    },
-    {
-        "type": "convention",
-        "module": "test_game_over",
+        "module": "tests.test_game_over",
         "obj": "test_game_over_other",
         "line": 9,
         "column": 0,
@@ -637,47 +598,21 @@
         "message-id": "C0116"
     },
     {
-        "type": "convention",
-        "module": "test_game_over",
-        "obj": "test_game_over_other",
-        "line": 10,
-        "column": 11,
-        "endLine": 10,
+        "type": "warning",
+        "module": "tests.test_game_over",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": 1,
         "endColumn": 32,
         "path": "/usr/src/tests/test_game_over.py",
-        "symbol": "singleton-comparison",
-        "message": "Comparison 'game_over(1) == False' should be 'game_over(1) is False' if checking for the singleton value False, or 'not game_over(1)' if testing for falsiness",
-        "message-id": "C0121"
+        "symbol": "unused-import",
+        "message": "Unused game_over imported from judge_code",
+        "message-id": "W0611"
     },
     {
         "type": "convention",
-        "module": "test_game_over",
-        "obj": "test_game_over_other",
-        "line": 11,
-        "column": 11,
-        "endLine": 11,
-        "endColumn": 34,
-        "path": "/usr/src/tests/test_game_over.py",
-        "symbol": "singleton-comparison",
-        "message": "Comparison 'game_over(100) == False' should be 'game_over(100) is False' if checking for the singleton value False, or 'not game_over(100)' if testing for falsiness",
-        "message-id": "C0121"
-    },
-    {
-        "type": "convention",
-        "module": "test_game_over",
-        "obj": "test_game_over_other",
-        "line": 12,
-        "column": 11,
-        "endLine": 12,
-        "endColumn": 34,
-        "path": "/usr/src/tests/test_game_over.py",
-        "symbol": "singleton-comparison",
-        "message": "Comparison 'game_over(999) == False' should be 'game_over(999) is False' if checking for the singleton value False, or 'not game_over(999)' if testing for falsiness",
-        "message-id": "C0121"
-    },
-    {
-        "type": "convention",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "",
         "line": 12,
         "column": 0,
@@ -690,7 +625,7 @@
     },
     {
         "type": "convention",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "",
         "line": 14,
         "column": 0,
@@ -703,9 +638,9 @@
     },
     {
         "type": "convention",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "",
-        "line": 35,
+        "line": 34,
         "column": 0,
         "endLine": null,
         "endColumn": null,
@@ -716,20 +651,7 @@
     },
     {
         "type": "convention",
-        "module": "test_solve_maze",
-        "obj": "",
-        "line": 58,
-        "column": 0,
-        "endLine": null,
-        "endColumn": null,
-        "path": "/usr/src/tests/test_solve_maze.py",
-        "symbol": "missing-final-newline",
-        "message": "Final newline missing",
-        "message-id": "C0304"
-    },
-    {
-        "type": "convention",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "",
         "line": 1,
         "column": 0,
@@ -742,7 +664,7 @@
     },
     {
         "type": "error",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "",
         "line": 1,
         "column": 0,
@@ -755,7 +677,7 @@
     },
     {
         "type": "error",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "",
         "line": 2,
         "column": 0,
@@ -768,7 +690,7 @@
     },
     {
         "type": "warning",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "",
         "line": 6,
         "column": 12,
@@ -781,24 +703,24 @@
     },
     {
         "type": "warning",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "reset_request",
         "line": 27,
         "column": 4,
         "endLine": 27,
-        "endColumn": 21,
+        "endColumn": 14,
         "path": "/usr/src/tests/test_solve_maze.py",
-        "symbol": "global-statement",
-        "message": "Using the global statement",
-        "message-id": "W0603"
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'game_state' from outer scope (line 8)",
+        "message-id": "W0621"
     },
     {
         "type": "warning",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "move_request",
-        "line": 31,
+        "line": 30,
         "column": 23,
-        "endLine": 31,
+        "endLine": 30,
         "endColumn": 26,
         "path": "/usr/src/tests/test_solve_maze.py",
         "symbol": "redefined-builtin",
@@ -807,24 +729,24 @@
     },
     {
         "type": "warning",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "move_request",
-        "line": 40,
+        "line": 39,
         "column": 4,
-        "endLine": 40,
-        "endColumn": 21,
+        "endLine": 39,
+        "endColumn": 14,
         "path": "/usr/src/tests/test_solve_maze.py",
-        "symbol": "global-statement",
-        "message": "Using the global statement",
-        "message-id": "W0603"
+        "symbol": "redefined-outer-name",
+        "message": "Redefining name 'game_state' from outer scope (line 8)",
+        "message-id": "W0621"
     },
     {
         "type": "convention",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "test_integration",
-        "line": 45,
+        "line": 43,
         "column": 0,
-        "endLine": 45,
+        "endLine": 43,
         "endColumn": 26,
         "path": "/usr/src/tests/test_solve_maze.py",
         "symbol": "missing-function-docstring",
@@ -833,7 +755,7 @@
     },
     {
         "type": "warning",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "test_integration",
         "line": 48,
         "column": 8,
@@ -846,11 +768,11 @@
     },
     {
         "type": "convention",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "test_solver",
-        "line": 53,
+        "line": 54,
         "column": 0,
-        "endLine": 53,
+        "endLine": 54,
         "endColumn": 21,
         "path": "/usr/src/tests/test_solve_maze.py",
         "symbol": "missing-function-docstring",
@@ -859,11 +781,11 @@
     },
     {
         "type": "warning",
-        "module": "test_solve_maze",
+        "module": "tests.test_solve_maze",
         "obj": "test_solver",
-        "line": 56,
+        "line": 57,
         "column": 8,
-        "endLine": 56,
+        "endLine": 57,
         "endColumn": 9,
         "path": "/usr/src/tests/test_solve_maze.py",
         "symbol": "unused-variable",
