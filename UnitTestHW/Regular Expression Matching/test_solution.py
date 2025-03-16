@@ -1,9 +1,9 @@
 import pytest
-import solution
+from solution import Solution
 
 @pytest.fixture
 def solution():
-    return solution()
+    return Solution()
 
 testcases = [
     # s, p, expected_res
