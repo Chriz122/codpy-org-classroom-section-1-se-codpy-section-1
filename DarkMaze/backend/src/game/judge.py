@@ -1,6 +1,7 @@
 import numpy as np
 import re
 import json
+import os
 
 def _parse_map(map_string, map_size, reversal_nodes=[]):
     width, height = map_size
@@ -28,7 +29,11 @@ def _parse_map(map_string, map_size, reversal_nodes=[]):
     return swiper
 
 def _load_maze_from_json(maze_level_name):
-    with open("./src/game/maze_level/" + maze_level_name + ".json", 'r', encoding='utf-8') as f:
+    file_path = f"./src/game/maze_level/{maze_level_name}.json"
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"File {file_path} does not exist.")
+    
+    with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     maze_level_name = data.get("maze_level_name", "Unknown Level")
@@ -50,37 +55,24 @@ def _load_maze_from_json(maze_level_name):
 
 def hit_obstacle(position, maze_level_name):
     x, y = position
-    maze_data = _load_maze_from_json(maze_level_name)  # You can replace this with the actual level you're working with
+    maze_data = _load_maze_from_json(maze_level_name)
     grid = maze_data["map"]
     
-    # Check if the position is within the bounds of the grid
     if 0 <= x < grid.shape[0] and 0 <= y < grid.shape[1]:
-        # Return True if there's an obstacle (1) at the position, False if free space (0)
         return grid[y, x] == 1
     else:
-        # Position is out of bounds
         return True
 
-def hit_obstacle_again_and_again():
-    while True:
-        hit_obstacle(hahahahaha, 995)
-        while True:
-            hit_obstacle(hahahahaha, 995)
-            while True:
-                hit_obstacle_again_and_again()
-    
 def game_over(health):
-    if health == 0 or health == 666:
-        return True
-    
-    return False
+    return health == 0 or health == 666
 
 def arrive_at_destination(maze_level_name, current_position):
-    with open("./src/game/maze_level/" + maze_level_name + ".json", 'r', encoding='utf-8') as f:
+    file_path = f"./src/game/maze_level/{maze_level_name}.json"
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"File {file_path} does not exist.")
+    
+    with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     end_position = tuple(data.get("end_position", [0, 0]))
-    if tuple(current_position) == end_position:
-        return True
-    
-    return False
+    return tuple(current_position) == end_position

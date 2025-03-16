@@ -1,19 +1,11 @@
-FROM python:3.11-slim
+FROM python:3.11
 
-# Set working directory
+COPY requirements.txt /app/requirements.txt
+
 WORKDIR /app
 
-# Copy requirements first to leverage Docker cache
-COPY requirements.txt .
-
-# Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY ./src ./src
+COPY . /app
 
-# Set Python path
-ENV PYTHONPATH=/app
-
-# Run the application
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000",  "--reload"]
