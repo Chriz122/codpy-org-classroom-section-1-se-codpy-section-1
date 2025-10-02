@@ -17,8 +17,6 @@ COPY requirements.txt .     # 先複製 requirements，避免每次都重新安�
 
 RUN pip install --no-cache-dir -r requirements.txt  # 安裝依賴
 
-COPY . .                    # 複製專案檔案
-
 CMD ["python", "main.py"]   # 預設執行 main.py
 
 ##
