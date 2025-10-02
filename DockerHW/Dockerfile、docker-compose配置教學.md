@@ -37,4 +37,5 @@ services:
       - PYTHONUNBUFFERED=1
 ## 成功畫面
 
-![success](assets/image.png)
+<img width="772" height="587" alt="image" src="https://github.com/user-attachments/assets/fd6b74ca-4dc1-4a90-addb-fb5a7c1f5897" />
+
